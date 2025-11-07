@@ -1,0 +1,15 @@
+trip_update_url: 'https://gtfsapi.translink.ca/v3/gtfsrealtime?apikey=9AOnwk30j1iY6zEQOZxN'
+vehicle_position_url: 'https://gtfsapi.translink.ca/v3/gtfsposition?apikey=9AOnwk30j1iY6zEQOZxN'
+update_interval: 30
+# static_gtfs_url: https://gtfs-static.translink.ca/gtfs/google_transit.zip
+# enable_static_fallback: true
+departures:
+# - name: '84 to Olympic Station'
+#   route: '6638'
+#   stopid: '12815'
+#   # direction_id: '0'
+#   next_bus_limit: 1
+- name: '14 to downtown'
+  route: '16718'
+  stopid: '404'
+  next_bus_limit: 4
